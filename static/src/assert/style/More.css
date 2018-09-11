@@ -1,0 +1,44 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.content{
+    display:flex;
+    flex-direction:row;
+    padding: 65px 50px 0 50px;
+}
+.subContentLeft{
+    width:70%;
+}
+.subContentRight{
+    width:30%;
+}
+
+.cardList {
+    display:flex;
+    flex-direction:column;
+    margin:8px 0 8px 0;
+}
+
+.cardItem {
+    width: 150px;
+}
+
+.cardImg {
+    height: 200px;
+}
+
+.cardTitle {
+    width: 80px;
+}
+
+.cardDescription {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.addList {
+    width : 200px;
+    height : 300px;
+}

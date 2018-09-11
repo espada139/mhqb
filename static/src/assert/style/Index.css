@@ -1,0 +1,60 @@
+.showCardMetaTitleLink{
+    color:white;
+    font-size: 14px;
+    margin: 0 14px 0 14px;
+}
+.showCardMetaTitleLink:hover{
+    color:red;
+}
+.recent_update_title{
+    color:black;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 8px 8px 8px;
+}
+.recent_update_item{
+    display:flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left:4px;
+}
+.recent_update_item_icon{
+    width:50px;
+    height:50px;
+    margin-left: 4px;
+}
+.recent_update_item_content{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-right: 4px;
+}
+.recent_update_item_content_title{
+    width: 100%;
+    margin: 2px 4px 2px 4px;
+    color:gray;
+    font-size:14px;
+}
+.recent_update_item_content_num{
+    margin: 2px 4px 2px 4px;
+    color:gray;
+    font-size:14px;
+}
+.recent_update_item_content_date{
+    margin: 2px 4px 2px 4px;
+    color:red;
+    font-size:14px;
+}
+.subContent{
+    display: flex;
+    flex-direction: row;
+}
+.subContentLeft{
+    width:70%;
+}
+.subContentRight{
+    width:30%;
+}
+.recommendImg{
+    height:150px;
+}
